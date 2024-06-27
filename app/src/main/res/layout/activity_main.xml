@@ -1,0 +1,94 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#99C1C7"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="80px">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/black"
+        android:text="Employee Code" />
+
+    <EditText
+        android:id="@+id/empcode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="enter employee code"
+        android:inputType="textMultiLine" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/black"
+        android:text="Name" />
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="enter employee name" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/black"
+        android:text="Designation" />
+
+    <EditText
+        android:id="@+id/desi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="enter employee designation" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/black"
+        android:text="Company Name" />
+
+    <EditText
+        android:id="@+id/cmp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="enter company name" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/black"
+        android:text="Salary" />
+
+    <EditText
+        android:id="@+id/sal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="enter employee salary"
+        android:inputType="number" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/black"
+        android:text="Mobile No" />
+
+    <EditText
+        android:id="@+id/mobno"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="enter employee mobile no"
+        android:inputType="number" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/regbtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20px"
+        android:background="#00aabb"
+        android:text="Register" />
+    />
+
+
+</LinearLayout>
